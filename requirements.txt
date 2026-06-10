@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+nltk
+textblob
+tweet-preprocessor
+wordcloud
+openpyxl
+jupyter

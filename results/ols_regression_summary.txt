@@ -1,0 +1,34 @@
+                      Results: Ordinary least squares
+============================================================================
+Model:                 OLS                Adj. R-squared:       1.000       
+Dependent Variable:    engagement         AIC:                  -457308.2832
+Date:                  2024-05-09 00:02   BIC:                  -457244.9948
+No. Observations:      8367               Log-Likelihood:       2.2866e+05  
+Df Model:              8                  F-statistic:          2.069e+28   
+Df Residuals:          8358               Prob (F-statistic):   0.00        
+R-squared:             1.000              Scale:                1.0720e-25  
+----------------------------------------------------------------------------
+                 Coef.  Std.Err.          t           P>|t|   [0.025  0.975]
+----------------------------------------------------------------------------
+const            0.0000   0.0000               0.0388 0.9691 -0.0000  0.0000
+polarity        -0.0000   0.0000              -0.0221 0.9824 -0.0000  0.0000
+subjectivity    -0.0000   0.0000              -0.1240 0.9013 -0.0000  0.0000
+engagement_rate  0.0100   0.0000 403476521933915.4375 0.0000  0.0100  0.0100
+friends         -0.0000   0.0000             -88.7663 0.0000 -0.0000 -0.0000
+followers        0.0000   0.0000               4.9400 0.0000  0.0000  0.0000
+impressions     -0.0000   0.0000              -0.0255 0.9796 -0.0000  0.0000
+favorite_count  -0.0000   0.0000              -0.0089 0.9929 -0.0000  0.0000
+retweet_count   -0.0000   0.0000              -0.0377 0.9700 -0.0000  0.0000
+sportsbook      -0.0000   0.0000              -0.0319 0.9745 -0.0000  0.0000
+----------------------------------------------------------------------------
+Omnibus:             20088.531     Durbin-Watson:        1.863              
+Prob(Omnibus):       0.000         Jarque-Bera (JB):     178562607.431      
+Skew:                24.857        Prob(JB):             0.000              
+Kurtosis:            716.947       Condition No.:        1549467422265496064
+============================================================================
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is
+correctly specified.
+[2] The smallest eigenvalue is 9.98e-23. This might indicate that
+there are strong multicollinearity problems or that the design
+matrix is singular.
